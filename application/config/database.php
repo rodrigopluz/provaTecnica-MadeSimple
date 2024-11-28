@@ -50,7 +50,7 @@ $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'root';
-$db['default']['password'] = 'symee@2018';
+$db['default']['password'] = process.env.PASSWORD;
 $db['default']['database'] = 'sys_musicas';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
